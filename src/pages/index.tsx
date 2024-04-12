@@ -1,12 +1,14 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
+import { VideoGrid } from "@/components/VideoGrid";
+
 const inter = Inter({ subsets: ["latin"] });
-import {VideoCard} from "../components/VideoCard"
+
 export default function Home() {
   return (
     <div>
-      <VideoCard></VideoCard>
+      <VideoGrid></VideoGrid>
     </div>
   );
 }
